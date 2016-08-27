@@ -14,7 +14,7 @@
      -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mysampleapp" >
+    package="com.instagramclone.vishaan" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -26,10 +26,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
-        android:name="com.mysampleapp.Application"
+        android:name="com.instagramclone.vishaan.Application"
         >
         <activity
-            android:name=".SplashActivity"
+            android:name="com.instagramclone.vishaan.SplashActivity"
             android:label="@string/app_name"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
             <intent-filter>
@@ -38,13 +38,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignInActivity"
+            android:name="com.instagramclone.vishaan.SignInActivity"
             android:label="@string/title_activity_sign_in"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             >
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.instagramclone.vishaan.MainActivity"
             android:label="@string/title_activity_main">
         </activity>
 
